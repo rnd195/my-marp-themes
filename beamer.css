@@ -11,20 +11,10 @@
 section {
   background-color: #ffffff;
   /* bottom two-coloured bar, dirty trick with linear gradient */
-  background-image: linear-gradient(
-    90deg,
-    var(--beamer-secondary) 50%,
-    var(--beamer-main) 0.01%,
-    var(--beamer-main));
-  /* compatibility */
-  background-image: -webkit-linear-gradient(
-    -180deg,
-    var(--beamer-secondary) 50%,
-    var(--beamer-main) 0.01%,
-    var(--beamer-main));
+  background-image: url(./src/bar.svg);
   background-repeat: no-repeat;
   background-position: center bottom;
-  background-size: 100% 1em;
+  background-size: 110% 1em;
   /* top bot left right padding */
   padding: 2em;
 }
