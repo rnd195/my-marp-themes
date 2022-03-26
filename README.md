@@ -11,6 +11,7 @@
 ![gradient1 sample](./samples/gradient1.png)
 
 - `beamer`, inspired by LaTeX's Beamer class (Copenhagen dolphin)
+
 ![beamer sample](./samples/beamer.png)
 
 
