@@ -3,8 +3,8 @@ marp: true
 theme: border
 paginate: true
 size: 16:9
-header: Introducing Marp
-title: Document title
+header: Marp custom themes
+title: Marp custom themes
 
 ---
 <!-- No page number and no header -->
@@ -52,3 +52,4 @@ theme: gradient1
   - Search for "Marp: Themes"
   - Add either a local or a remote path
     - e.g.: https://raw.githubusercontent.com/rnd195/my-marp-themes/main/border.css
+  - Try restaring VSCode if it doesn't work right away
