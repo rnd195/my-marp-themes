@@ -1,20 +1,19 @@
 ---
 marp: true
-theme: border
+theme: beamer
 paginate: true
 size: 16:9
-header: Marp custom themes
+header: This is a header
+footer: This is a footer
 title: Marp custom themes
-
 ---
-<!-- No page number and no header -->
-<!-- _paginate: false -->
-<!-- _header: "" -->
+<!-- _class: title -->
 
+# Title of my presentation
 
-# My custom Marp themes
-- `border`
-- `gradient1`
+Author name
+University of XYZ
+2022-26-03
 
 ---
 
@@ -28,7 +27,6 @@ title: Marp custom themes
 ---
 marp: true
 theme: border
-paginate: true
 ---
 ```
 
@@ -45,7 +43,27 @@ theme: gradient1
 ```
 ---
 
+# The `beamer` theme
+
+- Inspired by the Beamer LaTeX document class
+- Specifically the Copenhagen dolphin variant
+
+```
+---
+marp: true
+theme: beamer
+---
+```
+- Supports title pages by calling `<!-- _class: title -->` (see `beamer-sample.md`)
+  - But make sure to only call this on the very first page
+  - And only use simple text (no bullet points) to further specify your name, institution, and date
+    - Only the `<p>` element will be centered (this was the best I could do with my limited CSS knowledge, sorry)
+
+---
+
 # Installation
+
+This assumes that you're using the VSCode extension...
 
 - In VSCode, go to
   - Preferences: Open Settings (UI)

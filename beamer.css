@@ -1,0 +1,119 @@
+/* @theme beamer */
+
+@import "default";
+
+:root {
+  font-family: "CMU Sans Serif", Helvetica, sans-serif;
+  --beamer-main: #1f38c5;
+  --beamer-secondary: #141414;
+  --transparent: rgba(0, 0, 0, 0);
+}
+
+section {
+  background-color: #ffffff;
+  /* bottom two-coloured bar, dirty trick with linear gradient */
+  background-image: linear-gradient(
+    90deg,
+    var(--beamer-secondary) 0%,
+    var(--beamer-secondary) 50%,
+    var(--beamer-main) 50.01%,
+    var(--beamer-main));
+    background-repeat: no-repeat;
+  background-position: center bottom;
+  background-size: 100% 1em;
+  /* top bot left right padding */
+  padding: 2em;
+}
+
+header {
+  font-size: 0.6em;
+  /* this text-align is important */
+  text-align: right;
+  /* I don't like this absolute positioning, but it works */
+  position: absolute;
+  top: 96.2%;
+  width: 100%;
+  right: 0;
+  left: -51%;
+  color: white;
+}
+
+footer {
+  font-size: 0.6em;
+  /* this text-align is important */
+  position: absolute;
+  text-align: left;
+  top: 96.2%;
+  width: 100%;
+  right: 0;
+  left: 50.8%;
+  color: white;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #141414;
+}
+
+/* only apply to the first occurrence of h1 */
+h1:nth-of-type(1) {
+  font-family: "CMU Bright";
+  color: #ffffff;
+  /* once again, this is not great, but it works */
+  background-color: var(--beamer-main);
+  border-top: 0.3em solid var(--beamer-main);
+  padding: 0;
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 1.5em;
+  text-indent: 0.5em;
+}
+
+/* title page - only to be used as for a single slide */
+/* <!-- _class: title --> */
+section.title>h1 {
+  font-family: "CMU Bright";
+  color: #ffffff;
+  /* once again, this is not great, but it works */
+  background-color: var(--beamer-main);
+  border-radius: 25px;
+  position: absolute;
+  text-align: center;
+  top: 25%;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  padding-bottom: 0.2em;
+  height: auto;
+}
+
+/* remake this to be position with respect to h1 */
+section.title>p {
+  position: absolute;
+  text-align: center;
+  top: 45%;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+code {
+  background-color: rgba(100, 100, 100, 0.2);
+}
+
+section::after {
+  font-size: 0.6em;
+  /* this adds total pages */
+  content: attr(data-marpit-pagination) ' / ' attr(data-marpit-pagination-total);
+  position: absolute;
+  text-align: right;
+  top: 96.2%;
+  width: 100%;
+  right: 0;
+  left: -0.5em;
+  color: white;
+}
