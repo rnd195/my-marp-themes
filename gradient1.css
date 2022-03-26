@@ -1,0 +1,32 @@
+/* @theme gradient1 */
+
+@import "default";
+
+:root {
+  font-family: Inter, Helvetica, Arial;
+}
+
+section {
+  background-color: #ffffff;
+  background-image: linear-gradient(40deg, #e2bee2ad 0%, #a7e1e7ad 100%);
+}
+h1, h2, h3, h4, h5, h6 {
+  color: #842174;
+}
+
+a {
+  color: #9d30a6;
+}
+
+code {
+  background-color: rgba(146, 146, 146, 0.2);
+}
+
+pre {
+  background-color: #ece1ecad;
+}
+
+section::after {
+  font-size: 0.75em;
+  content: attr(data-marpit-pagination) ' / ' attr(data-marpit-pagination-total);
+}
