@@ -1,0 +1,14 @@
+/* @theme border */
+
+@import "default";
+
+section {
+  background: linear-gradient(to bottom right, rgb(196, 196, 196), rgb(253, 253, 253));
+  clip-path: inset(1em 1em 1em 1em);
+  border: 20px solid;
+  border-radius: 10px;
+}
+
+h1 {
+  color: red;
+}

@@ -1,7 +1,6 @@
 ---
 marp: true
-theme: uncover
-class: invert
+theme: border
 paginate: true
 size: 16:9
 header: Introducing Marp
