@@ -3,8 +3,7 @@
 @import "default";
 
 :root {
-  --gradient-from: rgb(212, 212, 212);
-  --gradient-to: rgb(253, 253, 253);
+  font-family: Inter, Helvetica, Arial;
 }
 
 section {
