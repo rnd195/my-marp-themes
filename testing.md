@@ -2,7 +2,7 @@
 marp: true
 theme: beamer
 paginate: true
-size: 4:3
+size: 16:9
 header: This is a header
 footer: This is a footer
 title: Marp custom themes
@@ -46,7 +46,7 @@ theme: gradient1
 # The `beamer` theme
 
 - Inspired by the Beamer LaTeX document class
-- Specifically the Copenhagen dolphin variant
+- Specifically the Copenhagen rose variant
 
 ```
 ---
