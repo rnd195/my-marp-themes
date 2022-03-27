@@ -10,8 +10,8 @@
 
 section {
   background-color: #ffffff;
-  /* bottom two-coloured bar, dirty trick with linear gradient */
-  background-image: url(./src/bar.svg);
+  /* bottom two-coloured bar */
+  background-image: url(https://raw.githubusercontent.com/rnd195/my-marp-themes/main/src/bar.svg);
   background-repeat: no-repeat;
   background-position: center bottom;
   background-size: 110% 1em;
