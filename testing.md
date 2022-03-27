@@ -2,7 +2,7 @@
 marp: true
 theme: beamer
 paginate: true
-size: 16:9
+size: 4:3
 header: This is a header
 footer: This is a footer
 title: Marp custom themes
