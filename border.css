@@ -25,3 +25,9 @@ section::after {
   font-size: 0.75em;
   content: attr(data-marpit-pagination) ' / ' attr(data-marpit-pagination-total);
 }
+
+/* the "center" keyword centers the image - may break, careful */
+img[alt~="center"] {
+	display: block;
+	margin: 0 auto;
+}
