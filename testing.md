@@ -53,10 +53,9 @@ marp: true
 theme: beamer
 ---
 ```
-- Supports title pages by calling `<!-- _class: title -->` (see `beamer-sample.md`)
+- Supports title pages by calling `<!-- _class: title -->`
   - But make sure to only call this on the very first page
-  - And only use simple text (no bullet points) to further specify your name, institution, and date
-    - Only the `<p>` element will be centered (more implemented later)
+  - See `samples/beamer-template.md` for a template
 
 ---
 
