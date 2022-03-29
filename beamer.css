@@ -113,3 +113,9 @@ section::after {
 .katex {
   font: normal 1.05em KaTeX_Main, 'Times New Roman', serif
 }
+
+/* the "center" keyword centers the image - may break, careful */
+img[alt~="center"] {
+	display: block;
+	margin: 0 auto;
+}
