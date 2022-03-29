@@ -50,4 +50,5 @@ University of XYZ
 <!-- _class: tinytext -->
 # Tinytext class
 
-- use `<!-- _class: tinytext -->` to make some text on a slide tiny
+- use `<!-- _class: tinytext -->` to make some text tiny
+- might be useful for References
