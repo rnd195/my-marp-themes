@@ -16,7 +16,6 @@ section {
   background-repeat: no-repeat;
   background-position: center bottom;
   background-size: 150% 1em;
-  /* top bot left right padding */
   padding: 2em;
 }
 
@@ -35,8 +34,8 @@ header {
 
 footer {
   font-size: 0.6em;
-  /* this text-align is important */
   position: absolute;
+  /* this text-align is important */
   text-align: left;
   top: 96.2%;
   width: 100%;
@@ -53,7 +52,6 @@ h1, h2, h3, h4, h5, h6 {
 h1:nth-of-type(1) {
   font-family: "CMU Bright";
   color: #ffffff;
-  /* once again, this is not great, but it works */
   background-color: var(--beamer-main);
   border-top: 0.3em solid var(--beamer-main);
   padding: 0;
@@ -70,7 +68,6 @@ h1:nth-of-type(1) {
 section.title>h1 {
   font-family: "CMU Bright";
   color: #ffffff;
-  /* once again, this is not great, but it works */
   background-color: var(--beamer-main);
   border-radius: 25px;
   position: absolute;
@@ -85,7 +82,7 @@ section.title>h1 {
   height: auto;
 }
 
-/* remake this to be position with respect to h1 */
+/* remake this to be positioned with respect to h1 */
 section.title>p {
   position: relative;
   text-align: center;
