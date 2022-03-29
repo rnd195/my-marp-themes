@@ -45,3 +45,9 @@ University of XYZ
 ...
 ```
 - make sure to leave an empty line below the `<br/>` tag
+
+---
+<!-- _class: tinytext -->
+# Tinytext class
+
+- use `<!-- _class: tinytext -->` to make some text on a slide tiny

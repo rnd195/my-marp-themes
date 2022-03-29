@@ -2,7 +2,7 @@
 marp: true
 theme: beamer
 paginate: true
-size: 16:9
+size: 4:3
 header: This is a header
 footer: This is a footer
 title: Testing MD file
@@ -71,7 +71,9 @@ This assumes that you're using the VSCode extension...
   - Try restaring VSCode if it doesn't work right away
 
 ---
-
+<!-- _class: tinytext --->
 # Testing slide
 
 - inline text, $inline\ math$
+
+Normal text

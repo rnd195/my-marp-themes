@@ -89,6 +89,12 @@ section.title>p {
   top: 35px;
 }
 
+/* new class that makes p and ul text smaller */
+/* might be useful for the References slide, use <!-- _class: tinytext --> */
+section.tinytext>p, section.tinytext>ul {
+  font-size: 0.65em;
+}
+
 code {
   background-color: rgba(100, 100, 100, 0.2);
 }
