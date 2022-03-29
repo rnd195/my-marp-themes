@@ -87,13 +87,9 @@ section.title>h1 {
 
 /* remake this to be position with respect to h1 */
 section.title>p {
-  position: absolute;
+  position: relative;
   text-align: center;
-  top: 45%;
-  left: 0;
-  right: 0;
-  margin-left: auto;
-  margin-right: auto;
+  top: 35px;
 }
 
 code {
@@ -111,4 +107,9 @@ section::after {
   right: 0;
   left: -0.5em;
   color: white;
+}
+
+/* Inline math was too large wrt text */
+.katex {
+  font: normal 1.05em KaTeX_Main, 'Times New Roman', serif
 }

@@ -5,11 +5,11 @@ paginate: true
 size: 16:9
 header: This is a header
 footer: This is a footer
-title: Marp custom themes
+title: Testing MD file
 ---
 <!-- _class: title -->
 
-# Title of my presentation
+# This is truly an extremely long title of my presentation
 
 Author name
 University of XYZ
@@ -46,7 +46,6 @@ theme: gradient1
 # The `beamer` theme
 
 - Inspired by the Beamer LaTeX document class
-- Specifically the Copenhagen rose variant
 
 ```
 ---
@@ -57,7 +56,7 @@ theme: beamer
 - Supports title pages by calling `<!-- _class: title -->` (see `beamer-sample.md`)
   - But make sure to only call this on the very first page
   - And only use simple text (no bullet points) to further specify your name, institution, and date
-    - Only the `<p>` element will be centered (this was the best I could do with my limited CSS knowledge, sorry)
+    - Only the `<p>` element will be centered (more implemented later)
 
 ---
 
@@ -71,3 +70,9 @@ This assumes that you're using the VSCode extension...
   - Add either a local or a remote path
     - e.g.: https://raw.githubusercontent.com/rnd195/my-marp-themes/main/border.css
   - Try restaring VSCode if it doesn't work right away
+
+---
+
+# Testing slide
+
+- inline text, $inline\ math$
