@@ -1,6 +1,7 @@
 ---
 marp: true
-theme: beamer
+theme: gradient
+class: blue
 paginate: true
 size: 4:3
 header: This is a header
@@ -31,14 +32,16 @@ theme: border
 ```
 
 ---
-# The `gradient1` theme
+# The `gradient` theme
 
 - The default theme with a different background
+- And some other tweaks
 
 ```
 ---
 marp: true
-theme: gradient1
+theme: gradient
+class: blue
 ---
 ```
 ---

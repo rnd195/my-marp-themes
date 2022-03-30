@@ -1,13 +1,14 @@
 /* @theme border */
 
 @import "default";
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
 
 :root {
   font-family: Inter, Helvetica, Arial;
 }
 
 section {
-  background-image: linear-gradient(to bottom right, #f1f1f1 0%, #d3d3d3 100%);
+  background-image: linear-gradient(to bottom right, #f7f7f7 0%, #d3d3d3 100%);
   border: 1.3em solid #303030;
   outline: 1em solid rgb(255, 255, 255);
   outline-offset: -0.5em;

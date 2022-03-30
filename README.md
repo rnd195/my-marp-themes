@@ -10,7 +10,9 @@
 
 ![gradient1 sample](./samples/gradient1.png)
 
-- `beamer`, inspired by LaTeX's Beamer class (Copenhagen rose)
+- `beamer`, inspired by LaTeX's Beamer class
+  - download the [Computer Modern Unicode font family](https://ctan.org/pkg/cm-unicode?lang=en) for best results
+
 
 ![beamer sample](./samples/beamer.png)
 
