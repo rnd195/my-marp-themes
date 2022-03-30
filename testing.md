@@ -1,9 +1,8 @@
 ---
 marp: true
-theme: gradient
-class: blue
+theme: beamer
 paginate: true
-size: 4:3
+size: 16:9
 header: This is a header
 footer: This is a footer
 title: Testing MD file
@@ -41,7 +40,6 @@ theme: border
 ---
 marp: true
 theme: gradient
-class: blue
 ---
 ```
 ---

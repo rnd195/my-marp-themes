@@ -100,7 +100,6 @@ section.title>h1 {
   color: #ffffff;
   background-color: var(--beamer-main);
   border-radius: 25px;
-  position: absolute;
   text-align: center;
   top: 25%;
   left: 0;

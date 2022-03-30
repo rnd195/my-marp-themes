@@ -2,25 +2,29 @@
 
 [Marp](https://marp.app/) is used to create presentations in Markdown. In this repository, you may find simple CSS themes that I have created. Namely:
 
+- `beamer`, inspired by LaTeX's Beamer class
+  - download the [Computer Modern Unicode font family](https://ctan.org/pkg/cm-unicode?lang=en) for best results
+
+![beamer sample](./samples/beamer.png)
+
+
 - `border`, based on the `default` Marp theme
 
 ![border sample](./samples/border.png)
 
-- `gradient1`, also based on the `default` Marp theme
+- `gradient`, also based on the `default` Marp theme
 
-![gradient1 sample](./samples/gradient1.png)
+![gradient1 sample](./samples/gradient.png)
 
-- `beamer`, inspired by LaTeX's Beamer class
-  - download the [Computer Modern Unicode font family](https://ctan.org/pkg/cm-unicode?lang=en) for best results
+- `gradient`, class `blue`
 
-
-![beamer sample](./samples/beamer.png)
+![gradient-blue](samples/gradient-blue.png)
 
 
 
 ## Installation
 
-In VSCode, go to
+Assuming you're using the VSCode Marp extension… In VSCode, open
 
 - Preferences: Open Settings (UI)
 - Search for "Marp: Themes"
@@ -28,7 +32,7 @@ In VSCode, go to
   - e.g.: https://raw.githubusercontent.com/rnd195/my-marp-themes/main/border.css
 - Try restaring VSCode if it doesn't work right away
 
-- Then in the Markdown document, simply write, for instance, `theme: border`
+- Then in the Markdown document, simply write, for instance, `theme: border` in the YAML
 
 
 
