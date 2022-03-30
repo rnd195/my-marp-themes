@@ -15,7 +15,7 @@ title: Marp custom themes
 Author's name
 University of XYZ
 2022-26-03
-(Only normal text will is centered now)
+(Only normal text is centered now)
 
 ---
 
@@ -34,7 +34,7 @@ text
 ---
 # Title page ad hoc fix
 
-- If the title of your presentation is too long and the border intersects with the text underneath, use
+- If the title of your presentation is too long and the border intersects with the text underneath, use the following
 
 ```html
 # Title
