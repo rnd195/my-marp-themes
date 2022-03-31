@@ -1,13 +1,12 @@
 ---
 marp: true
-theme: beamer
+theme: cobalt
 paginate: true
 size: 16:9
 header: This is a header
 footer: This is a footer
 title: Testing MD file
 ---
-<!-- _class: title -->
 
 # This is truly an extremely long title of my presentation
 
@@ -60,11 +59,24 @@ theme: beamer
 
 ---
 
+# The `cobalt` theme
+
+- Based on [elitistsnob/typora-cobalt-theme](https://github.com/elitistsnob/typora-cobalt-theme)
+
+```
+---
+marp: true
+theme: cobalt
+---
+```
+
+---
+
 # Installation
 
 This assumes that you're using the VSCode extension...
 
-- In VSCode, go to
+- <mark>In VSCode, go to</mark>
   - Preferences: Open Settings (UI)
   - Search for "Marp: Themes"
   - Add either a local or a remote path
@@ -78,3 +90,19 @@ This assumes that you're using the VSCode extension...
 - inline text, $inline\ math$
 
 Normal text
+
+
+
+---
+
+# Table
+
+| 2    | 3    | 4    |
+| ---- | ---- | ---- |
+| a    | b    | c    |
+| d    | e    | f    |
+| g    | h    | i    |
+
+> blockquote
+> another line
+> a

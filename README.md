@@ -20,6 +20,10 @@
 
 ![gradient-blue](samples/gradient-blue.png)
 
+- `cobalt`, which is heavily based on [elitistsnob/typora-cobalt-theme](https://github.com/elitistsnob/typora-cobalt-theme)
+
+![cobalt](samples/cobalt.png)
+
 
 
 ## Installation
