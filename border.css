@@ -5,17 +5,21 @@
 
 :root {
   font-family: Inter, Helvetica, Arial;
+  --border-color: #303030;
+  --text-color: #0a0a0a;
+  --bg-color-alt: #dadada;
+  --mark-bg: #ffef92;
 }
 
 section {
   background-image: linear-gradient(to bottom right, #f7f7f7 0%, #d3d3d3 100%);
-  border: 1.3em solid #303030;
-  outline: 1em solid rgb(255, 255, 255);
+  border: 1.3em solid var(--border-color);
+  outline: 1em solid #ffffff;
   outline-offset: -0.5em;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  color: #0a0a0a;
+  color: var(--text-color);
 }
 
 code {
@@ -31,4 +35,20 @@ section::after {
 img[alt~="center"] {
 	display: block;
 	margin: 0 auto;
+}
+
+blockquote {
+  background: var(--bg-color-alt);
+  border-left: 10px solid var(--border-color);
+  margin: 0.5em;
+  padding: 0.5em;
+}
+
+/* taken from Fluent Typora theme */
+mark {
+  background-color: var(--mark-bg);
+  border-radius: 4px;
+  margin-left: 2px;
+  margin-right: 2px;
+  padding: 0px 4px 2px 4px;
 }
