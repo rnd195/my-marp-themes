@@ -1,6 +1,6 @@
 ---
 marp: true
-theme: cobalt
+theme: border
 paginate: true
 size: 16:9
 header: This is a header

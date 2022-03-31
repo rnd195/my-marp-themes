@@ -7,10 +7,14 @@
 
 ![beamer sample](./samples/beamer.png)
 
-
 - `border`, based on the `default` Marp theme
 
 ![border sample](./samples/border.png)
+
+- `cobalt`, which is heavily based on [elitistsnob/typora-cobalt-theme](https://github.com/elitistsnob/typora-cobalt-theme)
+
+![cobalt](samples/cobalt.png)
+
 
 - `gradient`, also based on the `default` Marp theme
 
@@ -19,10 +23,6 @@
 - `gradient`, class `blue`
 
 ![gradient-blue](samples/gradient-blue.png)
-
-- `cobalt`, which is heavily based on [elitistsnob/typora-cobalt-theme](https://github.com/elitistsnob/typora-cobalt-theme)
-
-![cobalt](samples/cobalt.png)
 
 
 
