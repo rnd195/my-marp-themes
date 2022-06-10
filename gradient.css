@@ -56,3 +56,10 @@ section.blue>a {
 section.blue::after, section.blue>footer, section.blue>header {
   color: #303ca6;
 }
+
+/* || SECTION CLASS: tinytext */
+/* new class that makes p, ul, and blockquote text smaller */
+/* might be useful for the References slide, use <!-- _class: tinytext --> */
+section.tinytext>p, section.tinytext>ul, section.tinytext>blockquote {
+  font-size: 0.65em;
+}
