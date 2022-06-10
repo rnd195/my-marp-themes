@@ -17,11 +17,6 @@
   --mark-bg: #ffde67;
 }
 
-:root {
-  font-family: Nunito, Helvetica, Arial;
-
-}
-
 section {
   background-color: var(--bg-color);
   color: var(--text-color);

@@ -1,16 +1,16 @@
 ---
 marp: true
-theme: border
+theme: cobalt
 paginate: true
-size: 16:9
+size: 4:3
 header: This is a header
 footer: This is a footer
 title: Testing MD file
 ---
-
+<!--- _class: title --->
 # This is truly an extremely long title of my presentation
 
-Author name
+Author's name
 University of XYZ
 2022-26-03
 
