@@ -106,8 +106,8 @@ section::after {
 
 /* the "center" keyword centers the image - may break, careful */
 img[alt~="center"] {
-	display: block;
-	margin: 0 auto;
+  display: block;
+  margin: 0 auto;
 }
 
 .katex {
@@ -122,7 +122,6 @@ mark {
   margin-right: 2px;
   padding: 0px 4px 2px 4px;
 }
-
 
 /* || SECTION CLASS: tinytext */
 /* new class that makes p, ul, and blockquote text smaller */

@@ -87,14 +87,13 @@ section::after {
 
 /* the "center" keyword centers the image - may break, careful */
 img[alt~="center"] {
-	display: block;
-	margin: 0 auto;
+  display: block;
+  margin: 0 auto;
 }
 
 /* || SECTION CLASS: title */
 /* title page - only to be used as for a single slide */
 /* <!-- _class: title --> */
-
 section.title>h1 {
   font-family: "CMU Bright", "Segoe UI Semibold";
   color: #ffffff;

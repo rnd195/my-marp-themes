@@ -35,8 +35,8 @@ section::after {
 
 /* the "center" keyword centers the image - may break, careful */
 img[alt~="center"] {
-	display: block;
-	margin: 0 auto;
+  display: block;
+  margin: 0 auto;
 }
 
 /* || SECTION CLASS: blue */
