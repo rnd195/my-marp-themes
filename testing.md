@@ -2,7 +2,7 @@
 marp: true
 theme: border
 paginate: true
-size: 16:9
+size: 4:3
 header: This is a header
 footer: This is a footer
 title: Testing MD file
@@ -17,10 +17,6 @@ University of XYZ
 ---
 
 # The `border` theme
-
-- **A** *dark-grey* <u>border</u> is added
-- The text is mostly black and white
-- Based on the `default` theme
 
 ```
 ---
@@ -85,24 +81,26 @@ This assumes that you're using the VSCode extension...
 
 ---
 <!-- _class: tinytext --->
-# Testing slide
+# Tinytext class
 
-- inline text, $inline\ math$
+Use `<!-- _class: tinytext --->` to make text in the slide tiny.
 
-Normal text
-
-
+Might be useful for references.
 
 ---
 
 # Table
 
-| 2    | 3    | 4    |
-| ---- | ---- | ---- |
-| a    | b    | c    |
-| d    | e    | f    |
-| g    | h    | i    |
+| Customer ID    |  AA23   | BBTG   |
+| ----  | ---- | ---- |
+| 101   | 0    | 12    |
+| 102   | 1    | 13    |
+| 103   | 1    | 16    |
 
+---
 
-> blockquote
-> another line
+# Text decorations
+
+- **Lorem ipsum** dolor sit amet, *consectetur adipiscing* elit. 
+
+- <u>Cras rhoncus lacinia</u> ex non <mark>sagittis</mark>. Proin non nunc vel justo tincidunt egestas. 

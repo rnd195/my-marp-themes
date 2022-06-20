@@ -41,3 +41,9 @@ Assuming you're using the VSCode Marp extension… In VSCode, open
 
 
 Some of the themes are intended to be used with the [Inter](https://github.com/rsms/inter) font by [rsms](https://github.com/rsms/), so check them out.
+
+
+
+### License
+
+The software is licensed under the [MIT License](https://github.com/rnd195/my-marp-themes/blob/main/LICENSE).
