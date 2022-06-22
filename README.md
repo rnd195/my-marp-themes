@@ -11,7 +11,7 @@
 
 ![border sample](./samples/border.png)
 
-- `cobalt`, which is heavily based on [elitistsnob/typora-cobalt-theme](https://github.com/elitistsnob/typora-cobalt-theme)
+- `cobalt`, which is heavily based on [elitistsnob/typora-cobalt-theme](https://github.com/elitistsnob/typora-cobalt-theme) and the Cobalt2 theme by [Wes Bos](https://github.com/wesbos/cobalt2/)
 
 ![cobalt](samples/cobalt.png)
 
