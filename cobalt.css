@@ -11,6 +11,7 @@
   --side-bar-bg-color: #090b10;
   --text-color: #a9aaab;
   --text-color-alt: #83b3c5;
+  --text-color-darker: #474747;
   --border: #57708d;
   --orange-line: #f79f2a;
   --orange-line-dim: #f79e2abe;
@@ -83,6 +84,7 @@ blockquote {
   border-left: 10px solid #f0b752;
   margin: 0.5em;
   padding: 0.5em;
+  color: var(--text-color);
 }
 
 /* codeblock */
@@ -114,13 +116,14 @@ img[alt~="center"] {
   font: normal 1.1em KaTeX_Main, 'Times New Roman', serif
 }
 
-/* taken from the Fluent Typora theme */
+/* taken from the Fluent Typora theme github.com/li3zhen1/Fluent-Typora */
 mark {
   background-color: var(--mark-bg);
   border-radius: 4px;
   margin-left: 2px;
   margin-right: 2px;
   padding: 0px 4px 2px 4px;
+  color: var(--text-color-darker);
 }
 
 /* || SECTION CLASS: tinytext */

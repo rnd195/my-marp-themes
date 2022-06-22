@@ -44,7 +44,7 @@ blockquote {
   padding: 0.5em;
 }
 
-/* taken from the Fluent Typora theme */
+/* taken from the Fluent Typora theme github.com/li3zhen1/Fluent-Typora */
 mark {
   background-color: var(--mark-bg);
   border-radius: 4px;

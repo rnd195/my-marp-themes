@@ -1,6 +1,6 @@
 ---
 marp: true
-theme: border
+theme: cobalt
 paginate: true
 size: 4:3
 header: This is a header
@@ -104,3 +104,5 @@ Might be useful for references.
 - **Lorem ipsum** dolor sit amet, *consectetur adipiscing* elit. 
 
 - <u>Cras rhoncus lacinia</u> ex non <mark>sagittis</mark>. Proin non nunc vel justo tincidunt egestas. 
+
+> Lorem ipsum.
