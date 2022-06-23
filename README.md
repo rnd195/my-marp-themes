@@ -11,10 +11,6 @@
 
 ![border sample](./samples/border.png)
 
-- `cobalt`, which is heavily based on [elitistsnob/typora-cobalt-theme](https://github.com/elitistsnob/typora-cobalt-theme) and the Cobalt2 theme by [Wes Bos](https://github.com/wesbos/cobalt2/).
-
-![cobalt](samples/cobalt.png)
-
 
 - `gradient`, also based on the `default` Marp theme
 
@@ -40,10 +36,6 @@ Assuming you're using the VSCode Marp extension… In VSCode, open
 
 
 
-Some of the themes are intended to be used with the [Inter](https://github.com/rsms/inter) font by [rsms](https://github.com/rsms/), so check them out.
-
-
-
 ### License
 
 The software is licensed under the [MIT License](https://github.com/rnd195/my-marp-themes/blob/main/LICENSE).
@@ -52,4 +44,5 @@ The software is licensed under the [MIT License](https://github.com/rnd195/my-ma
 
 ### Attribution
 
-The `beamer`, `border`, `cobalt`, and `gradient` themes are based on the `default` Marp themes made by [yhatt](https://github.com/marp-team/marp-core/tree/main/themes). The `border` and `gradient` themes import the [Inter](https://fonts.google.com/specimen/Inter) font by [Rasmus Andersson](https://rsms.me/). The `cobalt` theme is based on the Cobalt Typora theme made by [elitistsnob](https://github.com/elitistsnob/typora-cobalt-theme), which was inspired by the Cobalt theme family made by [Wes Bos](https://github.com/wesbos).
+The `beamer`, `border`, `cobalt`, and `gradient` themes are based on the `default` Marp themes made by [yhatt](https://github.com/marp-team/marp-core/tree/main/themes). The `border` and `gradient` themes import the [Inter](https://fonts.google.com/specimen/Inter) font by [Rasmus Andersson](https://rsms.me/).
+
