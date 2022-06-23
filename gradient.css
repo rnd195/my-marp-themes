@@ -28,6 +28,7 @@ pre {
   background-color: #ece1ecad;
 }
 
+/* https://github.com/yhatt/marp/issues/263 */
 section::after {
   font-size: 0.75em;
   content: attr(data-marpit-pagination) ' / ' attr(data-marpit-pagination-total);
