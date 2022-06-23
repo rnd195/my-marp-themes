@@ -11,7 +11,7 @@
 
 ![border sample](./samples/border.png)
 
-- `cobalt`, which is heavily based on [elitistsnob/typora-cobalt-theme](https://github.com/elitistsnob/typora-cobalt-theme) and the Cobalt2 theme by [Wes Bos](https://github.com/wesbos/cobalt2/)
+- `cobalt`, which is heavily based on [elitistsnob/typora-cobalt-theme](https://github.com/elitistsnob/typora-cobalt-theme) and the Cobalt2 theme by [Wes Bos](https://github.com/wesbos/cobalt2/).
 
 ![cobalt](samples/cobalt.png)
 
@@ -47,3 +47,9 @@ Some of the themes are intended to be used with the [Inter](https://github.com/r
 ### License
 
 The software is licensed under the [MIT License](https://github.com/rnd195/my-marp-themes/blob/main/LICENSE).
+
+
+
+### Attribution
+
+The `beamer`, `border`, `cobalt`, and `gradient` themes are based on the `default` Marp themes made by [yhatt](https://github.com/marp-team/marp-core/tree/main/themes). The `border` and `gradient` themes import the [Inter](https://fonts.google.com/specimen/Inter) font by [Rasmus Andersson](https://rsms.me/). The `cobalt` theme is based on the Cobalt Typora theme made by [elitistsnob](https://github.com/elitistsnob/typora-cobalt-theme), which was inspired by the Cobalt theme family made by [Wes Bos](https://github.com/wesbos).
