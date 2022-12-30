@@ -2,7 +2,7 @@
 
 [Marp](https://marp.app/) is used to create presentations in Markdown. In this repository, you may find simple CSS themes that I have created. Namely:
 
-- `beamer`, inspired by LaTeX's Beamer class
+- `beamer`, based on [LaTeX's beamer class](https://github.com/josephwright/beamer)
   - download the [Computer Modern Unicode font family](https://ctan.org/pkg/cm-unicode?lang=en) for best results
 
 ![beamer sample](./samples/beamer.png)
