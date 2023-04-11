@@ -4,6 +4,7 @@
 
 - `beamer`, based on [LaTeX's beamer class](https://github.com/josephwright/beamer)
   - download the [Computer Modern Unicode font family](https://ctan.org/pkg/cm-unicode?lang=en) for best results
+  - follow the [tutorial](how-to/beamer_custom.md) to change the primary colors
 
 ![beamer sample](./samples/beamer.png)
 
