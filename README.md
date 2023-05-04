@@ -2,11 +2,11 @@
 
 [Marp](https://marp.app/) is used to create presentations in Markdown. In this repository, you may find simple CSS themes that I have created. Namely:
 
-- `beamer`, based on [LaTeX's beamer class](https://github.com/josephwright/beamer)
+- `beam`, based on [LaTeX's beamer class](https://github.com/josephwright/beamer)
   - download the [Computer Modern Unicode font family](https://ctan.org/pkg/cm-unicode?lang=en) for best results
-  - follow the [tutorial](how-to/beamer_custom.md) to change the primary colors
+  - follow the [tutorial](how-to/beam_custom.md) to change the primary colors
 
-![beamer sample](./samples/beamer.png)
+![beam sample](./samples/beam.png)
 
 - `border`, based on the `default` Marp theme
 
@@ -39,11 +39,11 @@ Assuming you're using the VSCode Marp extension… In VSCode, open
 
 ### License
 
-The `beamer` theme is licensed under [GNU GPLv3](https://github.com/rnd195/my-marp-themes/blob/main/LICENSE_beamer). The rest of the repository is licensed under the [MIT License](https://github.com/rnd195/my-marp-themes/blob/main/LICENSE).
+The `beamer`-inspired theme is licensed under [GNU GPLv3](https://github.com/rnd195/my-marp-themes/blob/main/LICENSE_beamer). The rest of the repository is licensed under the [MIT License](https://github.com/rnd195/my-marp-themes/blob/main/LICENSE).
 
 
 
 ### Attribution
 
-The `beamer`, `border`, and `gradient` themes are based on the `default` Marp themes made by [yhatt](https://github.com/marp-team/marp-core/tree/main/themes). The `border` and `gradient` themes import the [Inter](https://fonts.google.com/specimen/Inter) font by [Rasmus Andersson](https://rsms.me/).
+The `beam`, `border`, and `gradient` themes are based on the `default` Marp themes made by [yhatt](https://github.com/marp-team/marp-core/tree/main/themes). The `border` and `gradient` themes import the [Inter](https://fonts.google.com/specimen/Inter) font by [Rasmus Andersson](https://rsms.me/).
 

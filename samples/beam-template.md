@@ -1,6 +1,6 @@
 ---
 marp: true
-theme: beamer
+theme: beamarp
 paginate: true
 size: 4:3
 header: This is a header
@@ -9,7 +9,7 @@ title: Marp custom themes
 ---
 <!-- _class: title -->
 
-# A very long title of my beamer presentation
+# A very long title of my beamer-esque presentation
 <br/>
 
 Author's name
