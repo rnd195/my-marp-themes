@@ -30,7 +30,7 @@ Assuming you're using the VSCode Marp extension… In VSCode, open
 - Preferences: Open Settings (UI)
 - Search for "Marp: Themes"
 - Add either a local or a remote path
-  - e.g.: https://raw.githubusercontent.com/rnd195/my-marp-themes/main/border.css
+  - e.g.: https://raw.githubusercontent.com/rnd195/my-marp-themes/live/border.css
 - Try restaring VSCode if it doesn't work right away
 
 - Then in the Markdown document, simply write, for instance, `theme: border` in the YAML
