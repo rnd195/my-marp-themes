@@ -1,22 +1,30 @@
 /* @theme graph_paper */
+/* Author: rnd195 https://github.com/rnd195/ */
+/* MIT license https://github.com/rnd195/my-marp-themes/blob/live/LICENSE */
 
 @import "default";
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
+
 :root {
   font-family: "Work Sans Regular", Arial;
   --main-color: #040014;
   --text-color: #121114;
   --bg-color-alt: #dadada;
-  --mark-bg: #98d6ff;
+  --mark-background: #98d6ff;
 }
 
 section {
   background-color: #e3e3f1;
   background-size: 20px 20px;
-  background-image:  linear-gradient(#3f32af18 1px, transparent 1px), linear-gradient(to right, #ccc89536 1px, #d8d8e62d 1px);
+  background-image: linear-gradient(#3f32af18 1px, transparent 1px), linear-gradient(to right, #ccc89536 1px, #d8d8e62d 1px);
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   color: var(--text-color);
 }
 
@@ -44,7 +52,7 @@ pre {
 /* https://github.com/yhatt/marp/issues/263 */
 section::after {
   font-size: 0.75em;
-  content: attr(data-marpit-pagination) ' / ' attr(data-marpit-pagination-total);
+  content: attr(data-marpit-pagination) " / " attr(data-marpit-pagination-total);
   color: var(--text-color);
 }
 
@@ -62,7 +70,8 @@ blockquote {
 }
 
 mark {
-  background-color: var(--mark-bg);
+  background-color: var(--mark-background);
+  padding: 0 2px 2px;
 }
 
 table {
@@ -78,6 +87,8 @@ th {
 /* || SECTION CLASS: tinytext */
 /* new class that makes p, ul, and blockquote text smaller */
 /* might be useful for the References slide, use <!-- _class: tinytext --> */
-section.tinytext>p, section.tinytext>ul, section.tinytext>blockquote {
+section.tinytext>p,
+section.tinytext>ul,
+section.tinytext>blockquote {
   font-size: 0.65em;
 }

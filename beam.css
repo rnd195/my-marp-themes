@@ -1,4 +1,6 @@
 /* @theme beam */
+/* Author: rnd195 https://github.com/rnd195/ */
+/* GNU GPLv3 license https://github.com/rnd195/my-marp-themes/blob/live/LICENSE_beam */
 
 @import "default";
 
@@ -44,7 +46,12 @@ footer {
   color: white;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   color: #141414;
 }
 
@@ -67,11 +74,15 @@ code {
   background-color: rgba(100, 100, 100, 0.2);
 }
 
+mark {
+  background-color: #f5db7e;
+}
+
 /* formatting page numbers  */
 section::after {
   font-size: 0.6em;
   /* https://github.com/yhatt/marp/issues/263 */
-  content: attr(data-marpit-pagination) ' / ' attr(data-marpit-pagination-total);
+  content: attr(data-marpit-pagination) " / " attr(data-marpit-pagination-total);
   position: absolute;
   text-align: right;
   top: 96.2%;
@@ -83,7 +94,7 @@ section::after {
 
 /* inline math was too large wrt text */
 .katex {
-  font: normal 1.05em KaTeX_Main, 'Times New Roman', serif
+  font: normal 1.05em KaTeX_Main, "Times New Roman", serif
 }
 
 /* the "center" keyword centers the image - may break, careful */
@@ -121,6 +132,8 @@ section.title>p {
 /* || SECTION CLASS: tinytext */
 /* new class that makes p, ul, and blockquote text smaller */
 /* might be useful for the References slide, use <!-- _class: tinytext --> */
-section.tinytext>p, section.tinytext>ul, section.tinytext>blockquote {
+section.tinytext>p,
+section.tinytext>ul,
+section.tinytext>blockquote {
   font-size: 0.65em;
 }

@@ -1,4 +1,6 @@
 /* @theme border */
+/* Author: rnd195 https://github.com/rnd195/ */
+/* MIT license https://github.com/rnd195/my-marp-themes/blob/live/LICENSE */
 
 @import "default";
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
@@ -8,7 +10,7 @@
   --border-color: #303030;
   --text-color: #0a0a0a;
   --bg-color-alt: #dadada;
-  --mark-bg: #ffef92;
+  --mark-background: #ffef92;
 }
 
 section {
@@ -18,7 +20,12 @@ section {
   outline-offset: -0.5em;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   color: var(--text-color);
 }
 
@@ -29,7 +36,7 @@ code {
 /* https://github.com/yhatt/marp/issues/263 */
 section::after {
   font-size: 0.75em;
-  content: attr(data-marpit-pagination) ' / ' attr(data-marpit-pagination-total);
+  content: attr(data-marpit-pagination) " / " attr(data-marpit-pagination-total);
 }
 
 /* the "center" keyword centers the image - may break, careful */
@@ -45,18 +52,19 @@ blockquote {
   padding: 0.5em;
 }
 
-/* taken from the Fluent Typora theme github.com/li3zhen1/Fluent-Typora */
+/* inspired by the Fluent Typora theme github.com/li3zhen1/Fluent-Typora */
 mark {
-  background-color: var(--mark-bg);
+  background-color: var(--mark-background);
+  padding: 0 2px 2px;
   border-radius: 4px;
-  margin-left: 2px;
-  margin-right: 2px;
-  padding: 0px 4px 2px 4px;
+  margin: 0 2px;
 }
 
 /* || SECTION CLASS: tinytext */
 /* new class that makes p, ul, and blockquote text smaller */
 /* might be useful for the References slide, use <!-- _class: tinytext --> */
-section.tinytext>p, section.tinytext>ul, section.tinytext>blockquote {
+section.tinytext>p,
+section.tinytext>ul,
+section.tinytext>blockquote {
   font-size: 0.65em;
 }
