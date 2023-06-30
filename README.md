@@ -77,7 +77,7 @@ theme: theme_name
 
 5. Try restaring VSCode if it doesn't work right away
 
-For additional settings (such as `size` or `paginate`), follow the [official documentation](https://marpit.marp.app/directives).
+For additional settings (such as `size` or `paginate`), follow the [official documentation](https://github.com/marp-team/marp/blob/main/website/docs/guide/directives.md).
 
 # License
 
