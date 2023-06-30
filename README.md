@@ -58,7 +58,7 @@ https://raw.githubusercontent.com/rnd195/my-marp-themes/live/graph_paper.css
 
 
 
-## Installation
+# Installation
 
 Assuming you're using the VSCode Marp extension…
 
@@ -79,13 +79,13 @@ theme: theme_name
 
 For additional settings (such as `size` or `paginate`), follow the [official documentation](https://marpit.marp.app/directives).
 
-### License
+# License
 
 The `beamer`-inspired `beam` theme is licensed under [GNU GPLv3](https://github.com/rnd195/my-marp-themes/blob/main/LICENSE_beamer). The rest of the repository is licensed under the [MIT License](https://github.com/rnd195/my-marp-themes/blob/main/LICENSE).
 
 
 
-### Attribution
+## Attribution
 
 The `beam`, `border`, `graph_paper`, and `gradient` themes are based on the `default` Marp themes made by [yhatt](https://github.com/marp-team/marp-core/tree/main/themes). The `border` and `gradient` themes import the [Inter](https://fonts.google.com/specimen/Inter) font by [Rasmus Andersson](https://rsms.me/). The `graph_paper` theme imports the [Work Sans](https://github.com/weiweihuanghuang/Work-Sans) font by [Wei Huang](https://github.com/weiweihuanghuang).
 
