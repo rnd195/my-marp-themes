@@ -65,17 +65,19 @@ Assuming you're using the VSCode Marp extension…
 1. Open Settings in VSCode (`Ctrl + ,`)
 2. Search for "Marp: Themes" or "markdown.marp.themes"
 3. Add either a local or a remote path to the CSS file
-   - e.g.: https://raw.githubusercontent.com/rnd195/my-marp-themes/live/border.css
-4. Enable the theme in the front-matter of the Markdown document
+   - e.g.: https://raw.githubusercontent.com/rnd195/my-marp-themes/live/theme_name.css
+4. Enable the theme in the front-matter of the Markdown document, i.e., write the following at the very beginning of the Markdown document:
 
 ```
 ---
 marp: true
-theme: border
+theme: theme_name
 ---
 ```
 
 5. Try restaring VSCode if it doesn't work right away
+
+For additional settings (such as `size` or `paginate`), follow the [official documentation](https://marpit.marp.app/directives).
 
 ### License
 
