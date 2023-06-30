@@ -2,23 +2,42 @@
 
 [Marp](https://marp.app/) is used to create presentations in Markdown. In this repository, you may find simple CSS themes that I have created. Namely:
 
-- `beam`, based on [LaTeX's beamer class](https://github.com/josephwright/beamer)
-  - download the [Computer Modern Unicode font family](https://ctan.org/pkg/cm-unicode?lang=en) for best results
-  - follow the [tutorial](how-to/beam_custom.md) to change the primary colors
-  - more screenshots on the [community themes website](https://rnd195.github.io/marp-community-themes/theme/beam.html)
+## `beam`
+
+````
+https://raw.githubusercontent.com/rnd195/my-marp-themes/live/beam.css
+````
+
+- based on [LaTeX's beamer class](https://github.com/josephwright/beamer)
+
+- download the [Computer Modern Unicode font family](https://ctan.org/pkg/cm-unicode?lang=en) for best results
+- follow the [tutorial](how-to/beam_custom.md) to change the primary colors
+- more screenshots on the [community themes website](https://rnd195.github.io/marp-community-themes/theme/beam.html)
 
 ![beam sample](./samples/beam.png)
 
-- `border`, based on the `default` Marp theme
-  - find more screenshots on the [community themes website](https://rnd195.github.io/marp-community-themes/theme/border.html)
+## `border`
+
+```
+https://raw.githubusercontent.com/rnd195/my-marp-themes/live/border.css
+```
+
+- based on the `default` Marp theme
+
+- find more screenshots on the [community themes website](https://rnd195.github.io/marp-community-themes/theme/border.html)
 
 
 ![border sample](./samples/border.png)
 
+## `gradient`
 
-- `gradient`, also based on the `default` Marp theme
+```
+https://raw.githubusercontent.com/rnd195/my-marp-themes/live/gradient.css
+```
 
-  - more screenshots available on the [community themes website](https://rnd195.github.io/marp-community-themes/theme/gradient.html)
+- also based on the `default` Marp theme
+
+- more screenshots available on the [community themes website](https://rnd195.github.io/marp-community-themes/theme/gradient.html)
 
 
 ![gradient1 sample](./samples/gradient.png)
@@ -27,8 +46,13 @@
 
 ![gradient-blue](samples/gradient-blue.png)
 
-- `graph_paper` theme
-  - click [here](https://rnd195.github.io/marp-community-themes/theme/graph_paper.html) to see more screenshots
+## `graph_paper`
+
+```
+https://raw.githubusercontent.com/rnd195/my-marp-themes/live/graph_paper.css
+```
+
+- click [here](https://rnd195.github.io/marp-community-themes/theme/graph_paper.html) to see more screenshots
 
 ![graph_paper](samples/graph_paper.png)
 
@@ -36,17 +60,22 @@
 
 ## Installation
 
-Assuming you're using the VSCode Marp extension… In VSCode, open
+Assuming you're using the VSCode Marp extension…
 
-- Preferences: Open Settings (UI)
-- Search for "Marp: Themes"
-- Add either a local or a remote path
-  - e.g.: https://raw.githubusercontent.com/rnd195/my-marp-themes/live/border.css
-- Try restaring VSCode if it doesn't work right away
+1. Open Settings in VSCode (`Ctrl + ,`)
+2. Search for "Marp: Themes" or "markdown.marp.themes"
+3. Add either a local or a remote path to the CSS file
+   - e.g.: https://raw.githubusercontent.com/rnd195/my-marp-themes/live/border.css
+4. Enable the theme in the front-matter of the Markdown document
 
-- Then in the Markdown document, simply write, for instance, `theme: border` in the YAML
+```
+---
+marp: true
+theme: border
+---
+```
 
-
+5. Try restaring VSCode if it doesn't work right away
 
 ### License
 
