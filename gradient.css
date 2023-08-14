@@ -11,7 +11,7 @@
 
 section {
   background-color: #ffffff;
-  background-image: linear-gradient(40deg, #e2bee2ad 0%, #a7e1e7ad 100%);
+  background-image: linear-gradient(to top right, #e1c2e1 5%, #b9d5d9 95%);
 }
 
 h1,
@@ -55,7 +55,7 @@ img[alt~="center"] {
 /* || SECTION CLASS: blue */
 section.blue {
   background-color: #ffffff;
-  background-image: linear-gradient(to bottom right, #cadaf7 0%, #87a7e4 100%);
+  background-image: linear-gradient(to bottom right, #cadaf7 5%, #87a7e4 95%);
 }
 
 section.blue>h1,
