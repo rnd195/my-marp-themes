@@ -14,7 +14,7 @@ https://raw.githubusercontent.com/rnd195/my-marp-themes/live/beam.css
 - follow the [tutorial](how-to/beam_custom.md) to change the primary colors
 - more screenshots on the [community themes website](https://rnd195.github.io/marp-community-themes/theme/beam.html)
 
-![beam sample](./samples/beam.png)
+![beam sample](./samples/beam.jpg)
 
 ## `border`
 
