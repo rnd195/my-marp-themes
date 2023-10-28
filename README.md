@@ -4,11 +4,7 @@
 
 ## `beam`
 
-````
-https://raw.githubusercontent.com/rnd195/my-marp-themes/live/beam.css
-````
-
-- based on [LaTeX's beamer class](https://github.com/josephwright/beamer)
+- inspired by / based on [LaTeX's beamer class](https://github.com/josephwright/beamer)
 
 - download the [Computer Modern Unicode font family](https://ctan.org/pkg/cm-unicode?lang=en) for best results
 - follow the [tutorial](how-to/beam_custom.md) to change the primary colors
@@ -18,10 +14,6 @@ https://raw.githubusercontent.com/rnd195/my-marp-themes/live/beam.css
 
 ## `border`
 
-```
-https://raw.githubusercontent.com/rnd195/my-marp-themes/live/border.css
-```
-
 - based on the `default` Marp theme
 
 - find more screenshots on the [community themes website](https://rnd195.github.io/marp-community-themes/theme/border.html)
@@ -30,10 +22,6 @@ https://raw.githubusercontent.com/rnd195/my-marp-themes/live/border.css
 ![border sample](./samples/border.png)
 
 ## `gradient`
-
-```
-https://raw.githubusercontent.com/rnd195/my-marp-themes/live/gradient.css
-```
 
 - also based on the `default` Marp theme
 
@@ -47,10 +35,6 @@ https://raw.githubusercontent.com/rnd195/my-marp-themes/live/gradient.css
 ![gradient-blue](samples/gradient-blue.png)
 
 ## `graph_paper`
-
-```
-https://raw.githubusercontent.com/rnd195/my-marp-themes/live/graph_paper.css
-```
 
 - click [here](https://rnd195.github.io/marp-community-themes/theme/graph_paper.html) to see more screenshots
 
@@ -81,7 +65,7 @@ For additional settings (such as `size` or `paginate`), follow the [official doc
 
 # License
 
-The `beamer`-inspired `beam` theme is licensed under [GNU GPLv3](https://github.com/rnd195/my-marp-themes/blob/main/LICENSE_beamer). The rest of the repository is licensed under the [MIT License](https://github.com/rnd195/my-marp-themes/blob/main/LICENSE).
+The `beamer`-inspired `beam` theme is licensed under [GNU GPLv3](https://github.com/rnd195/my-marp-themes/blob/main/LICENSE_beamer). Parts of the `beamer` class are [dual-license](https://github.com/josephwright/beamer/blob/main/LICENSE.md) with one option being the [GNU GPLv2](https://github.com/rnd195/my-marp-themes/blob/live/LICENSE_GPLv2). The rest of the repository is licensed under the [MIT License](https://github.com/rnd195/my-marp-themes/blob/main/LICENSE).
 
 
 
