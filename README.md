@@ -48,8 +48,8 @@ Assuming you're using the VSCode Marp extension…
 
 1. Open Settings in VSCode (`Ctrl + ,`)
 2. Search for "Marp: Themes" or "markdown.marp.themes"
-3. Add either a local or a remote path to the CSS file
-   - e.g.: https://raw.githubusercontent.com/rnd195/my-marp-themes/live/theme_name.css
+3. Add either a local (on your computer) or a remote path to the CSS file
+   - Please, refer to [this discussion](https://stackoverflow.com/questions/17341122/link-and-execute-external-javascript-file-hosted-on-github/) about linking to files on GitHub
 4. Enable the theme in the front-matter of the Markdown document, i.e., write the following at the very beginning of the Markdown document:
 
 ```
@@ -68,8 +68,10 @@ For additional settings (such as `size` or `paginate`), follow the [official doc
 The `beamer`-inspired `beam` theme is licensed under [GNU GPLv3](https://github.com/rnd195/my-marp-themes/blob/main/LICENSE_beamer). Parts of the `beamer` class are [dual-license](https://github.com/josephwright/beamer/blob/main/LICENSE.md) with one option being the [GNU GPLv2](https://github.com/rnd195/my-marp-themes/blob/live/LICENSE_GPLv2). The rest of the repository is licensed under the [MIT License](https://github.com/rnd195/my-marp-themes/blob/main/LICENSE).
 
 
-
-## Attribution
+# Attribution
 
 The `beam`, `border`, `graph_paper`, and `gradient` themes are based on the `default` Marp themes made by [yhatt](https://github.com/marp-team/marp-core/tree/main/themes). The `border` and `gradient` themes import the [Inter](https://fonts.google.com/specimen/Inter) font by [Rasmus Andersson](https://rsms.me/). The `graph_paper` theme imports the [Work Sans](https://github.com/weiweihuanghuang/Work-Sans) font by [Wei Huang](https://github.com/weiweihuanghuang).
 
+# Privacy notice
+
+Please, be aware that some of the themes (`border`, `gradient`, and `graph_paper`) import fonts from the Google Fonts service. Refer to their [Privacy FAQ](https://developers.google.com/fonts/faq/privacy) for more information.
