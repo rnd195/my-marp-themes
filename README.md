@@ -10,6 +10,12 @@
 - follow the [tutorial](how-to/beam_custom.md) to change the primary colors
 - more screenshots on the [community themes website](https://rnd195.github.io/marp-community-themes/theme/beam.html)
 
+*Download the CSS file:*
+
+```
+https://raw.githubusercontent.com/rnd195/my-marp-themes/live/beam.css
+```
+
 ![beam sample](./samples/beam.jpg)
 
 ## `border`
@@ -18,6 +24,11 @@
 
 - find more screenshots on the [community themes website](https://rnd195.github.io/marp-community-themes/theme/border.html)
 
+*Download the CSS file:*
+
+```
+https://raw.githubusercontent.com/rnd195/my-marp-themes/live/border.css
+```
 
 ![border sample](./samples/border.png)
 
@@ -27,6 +38,11 @@
 
 - more screenshots available on the [community themes website](https://rnd195.github.io/marp-community-themes/theme/gradient.html)
 
+*Download the CSS file:*
+
+```
+https://raw.githubusercontent.com/rnd195/my-marp-themes/live/gradient.css
+```
 
 ![gradient1 sample](./samples/gradient.png)
 
@@ -37,6 +53,12 @@
 ## `graph_paper`
 
 - click [here](https://rnd195.github.io/marp-community-themes/theme/graph_paper.html) to see more screenshots
+
+*Download the CSS file:*
+
+```
+https://raw.githubusercontent.com/rnd195/my-marp-themes/live/graph_paper.css
+```
 
 ![graph_paper](samples/graph_paper.png)
 
