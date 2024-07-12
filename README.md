@@ -10,10 +10,10 @@
 - follow the [tutorial](how-to/beam_custom.md) to change the primary colors
 - more screenshots on the [community themes website](https://rnd195.github.io/marp-community-themes/theme/beam.html)
 
-*Download the CSS file:*
+*Download the CSS file from jsDelivr:*
 
 ```
-https://raw.githubusercontent.com/rnd195/my-marp-themes/live/beam.css
+https://cdn.jsdelivr.net/gh/rnd195/my-marp-themes@live/beam.css
 ```
 
 ![beam sample](./samples/beam.jpg)
@@ -24,10 +24,12 @@ https://raw.githubusercontent.com/rnd195/my-marp-themes/live/beam.css
 
 - find more screenshots on the [community themes website](https://rnd195.github.io/marp-community-themes/theme/border.html)
 
-*Download the CSS file:*
+- note that the theme imports a font from Google Fonts (see *Privacy notice* below)
+
+*Download the CSS file from jsDelivr:*
 
 ```
-https://raw.githubusercontent.com/rnd195/my-marp-themes/live/border.css
+https://cdn.jsdelivr.net/gh/rnd195/my-marp-themes@live/border.css
 ```
 
 ![border sample](./samples/border.png)
@@ -38,10 +40,12 @@ https://raw.githubusercontent.com/rnd195/my-marp-themes/live/border.css
 
 - more screenshots available on the [community themes website](https://rnd195.github.io/marp-community-themes/theme/gradient.html)
 
-*Download the CSS file:*
+- note that the theme imports a font from Google Fonts (see *Privacy notice* below)
+
+*Download the CSS file from jsDelivr:*
 
 ```
-https://raw.githubusercontent.com/rnd195/my-marp-themes/live/gradient.css
+https://cdn.jsdelivr.net/gh/rnd195/my-marp-themes@live/gradient.css
 ```
 
 ![gradient1 sample](./samples/gradient.png)
@@ -53,11 +57,12 @@ https://raw.githubusercontent.com/rnd195/my-marp-themes/live/gradient.css
 ## `graph_paper`
 
 - click [here](https://rnd195.github.io/marp-community-themes/theme/graph_paper.html) to see more screenshots
+- note that the theme imports a font from Google Fonts (see *Privacy notice* below)
 
-*Download the CSS file:*
+*Download the CSS file from jsDelivr:*
 
 ```
-https://raw.githubusercontent.com/rnd195/my-marp-themes/live/graph_paper.css
+https://cdn.jsdelivr.net/gh/rnd195/my-marp-themes@live/graph_paper.css
 ```
 
 ![graph_paper](samples/graph_paper.png)
@@ -71,7 +76,7 @@ Assuming you're using the VSCode Marp extension…
 1. Open Settings in VSCode (`Ctrl + ,`)
 2. Search for "Marp: Themes" or "markdown.marp.themes"
 3. Add either a local (on your computer) or a remote path to the CSS file
-   - Please, refer to [this discussion](https://stackoverflow.com/questions/17341122/link-and-execute-external-javascript-file-hosted-on-github/) about linking to files on GitHub
+   - *Links*: please, consider forking the repository and hosting the CSS files [using a CDN](https://stackoverflow.com/a/18049842) instead of linking to the raw file on GitHub (refer to [GitHub's blogpost](https://github.blog/2013-04-24-heads-up-nosniff-header-support-coming-to-chrome-and-firefox/) for more info)
 4. Enable the theme in the front-matter of the Markdown document, i.e., write the following at the very beginning of the Markdown document:
 
 ```
@@ -96,4 +101,6 @@ The `beam`, `border`, `graph_paper`, and `gradient` themes are based on the `def
 
 # Privacy notice
 
-Please, be aware that some of the themes (`border`, `gradient`, and `graph_paper`) import fonts from the Google Fonts service. Refer to their [Privacy FAQ](https://developers.google.com/fonts/faq/privacy) for more information.
+Please, be aware that some of the themes (`border`, `gradient`, and `graph_paper`) import fonts from the Google Fonts service. Please, refer to their [Privacy FAQ](https://developers.google.com/fonts/faq/privacy) for more information about using their service.
+
+Secondly, I provide links to the CSS files on jsDelivr. Please, refer to their [privacy policy](https://www.jsdelivr.com/terms/privacy-policy) for more information about using their service.
