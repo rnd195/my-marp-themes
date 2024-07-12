@@ -1,3 +1,7 @@
+**The `main` branch has been archived and may be deleted in the future. Please, refer to the [`live`](https://github.com/rnd195/my-marp-themes/tree/live) branch for up-to-date information about the project.**
+
+---
+
 # My custom Marp themes
 
 [Marp](https://marp.app/) is used to create presentations in Markdown. In this repository, you may find simple CSS themes that I have created. Namely:
@@ -21,19 +25,6 @@
 
 ![gradient-blue](samples/gradient-blue.png)
 
-
-
-## Installation
-
-Assuming you're using the VSCode Marp extension… In VSCode, open
-
-- Preferences: Open Settings (UI)
-- Search for "Marp: Themes"
-- Add either a local or a remote path
-  - e.g.: https://raw.githubusercontent.com/rnd195/my-marp-themes/main/border.css
-- Try restaring VSCode if it doesn't work right away
-
-- Then in the Markdown document, simply write, for instance, `theme: border` in the YAML
 
 
 
