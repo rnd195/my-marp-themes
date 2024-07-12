@@ -101,6 +101,6 @@ The `beam`, `border`, `graph_paper`, and `gradient` themes are based on the `def
 
 # Privacy notice
 
-Please, be aware that some of the themes (`border`, `gradient`, and `graph_paper`) import fonts from the Google Fonts service. Please, refer to their [Privacy FAQ](https://developers.google.com/fonts/faq/privacy) for more information about using their service.
+Please, be aware that by using some of the CSS themes (namely `border`, `gradient`, and `graph_paper`) you import fonts from the Google Fonts service. Please, refer to their [Privacy FAQ](https://developers.google.com/fonts/faq/privacy) for more information about using their service.
 
 Secondly, I provide links to the CSS files on jsDelivr. Please, refer to their [privacy policy](https://www.jsdelivr.com/terms/privacy-policy) for more information about using their service.
