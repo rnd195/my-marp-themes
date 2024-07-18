@@ -10,10 +10,10 @@
 - follow the [tutorial](how-to/beam_custom.md) to change the primary colors
 - more screenshots on the [community themes website](https://rnd195.github.io/marp-community-themes/theme/beam.html)
 
-*Download the CSS file from jsDelivr:*
+*Download the CSS file:*
 
 ```
-https://cdn.jsdelivr.net/gh/rnd195/my-marp-themes@live/beam.css
+https://rnd195.github.io/my-marp-themes/beam.css
 ```
 
 ![beam sample](./samples/beam.jpg)
@@ -26,10 +26,10 @@ https://cdn.jsdelivr.net/gh/rnd195/my-marp-themes@live/beam.css
 
 - note that the theme imports a font from Google Fonts (see *Privacy notice* below)
 
-*Download the CSS file from jsDelivr:*
+*Download the CSS file:*
 
 ```
-https://cdn.jsdelivr.net/gh/rnd195/my-marp-themes@live/border.css
+https://rnd195.github.io/my-marp-themes/border.css
 ```
 
 ![border sample](./samples/border.png)
@@ -42,10 +42,10 @@ https://cdn.jsdelivr.net/gh/rnd195/my-marp-themes@live/border.css
 
 - note that the theme imports a font from Google Fonts (see *Privacy notice* below)
 
-*Download the CSS file from jsDelivr:*
+*Download the CSS file:*
 
 ```
-https://cdn.jsdelivr.net/gh/rnd195/my-marp-themes@live/gradient.css
+https://rnd195.github.io/my-marp-themes/gradient.css
 ```
 
 ![gradient1 sample](./samples/gradient.png)
@@ -59,10 +59,10 @@ https://cdn.jsdelivr.net/gh/rnd195/my-marp-themes@live/gradient.css
 - click [here](https://rnd195.github.io/marp-community-themes/theme/graph_paper.html) to see more screenshots
 - note that the theme imports a font from Google Fonts (see *Privacy notice* below)
 
-*Download the CSS file from jsDelivr:*
+*Download the CSS file:*
 
 ```
-https://cdn.jsdelivr.net/gh/rnd195/my-marp-themes@live/graph_paper.css
+https://rnd195.github.io/my-marp-themes/graph_paper.css
 ```
 
 ![graph_paper](samples/graph_paper.png)
@@ -76,7 +76,7 @@ Assuming you're using the VSCode Marp extension…
 1. Open Settings in VSCode (`Ctrl + ,`)
 2. Search for "Marp: Themes" or "markdown.marp.themes"
 3. Add either a local (on your computer) or a remote path to the CSS file
-   - *Links*: please, consider forking the repository and hosting the CSS files [using a CDN](https://stackoverflow.com/a/18049842) instead of linking to the raw file on GitHub (refer to [GitHub's blogpost](https://github.blog/2013-04-24-heads-up-nosniff-header-support-coming-to-chrome-and-firefox/) for more info)
+   - *Links*: please, consider forking the repository and hosting the CSS files using, for example, GitHub Pages ([related Stack Overflow discussion](https://stackoverflow.com/a/52921967)) instead of linking to the raw file on GitHub (refer to [GitHub's blogpost](https://github.blog/2013-04-24-heads-up-nosniff-header-support-coming-to-chrome-and-firefox/) for more info)
 4. Enable the theme in the front-matter of the Markdown document, i.e., write the following at the very beginning of the Markdown document:
 
 ```
@@ -103,4 +103,5 @@ The `beam`, `border`, `graph_paper`, and `gradient` themes are based on the `def
 
 Please, be aware that by using some of the CSS themes (namely `border`, `gradient`, and `graph_paper`) you import fonts from the Google Fonts service. Please, refer to their [Privacy FAQ](https://developers.google.com/fonts/faq/privacy) for more information about using their service.
 
-Secondly, I provide links to the CSS files on jsDelivr. Please, refer to their [privacy policy](https://www.jsdelivr.com/terms/privacy-policy) for more information about using their service.
+The CSS files are also hosted on the GitHub Pages site of this repository (deployed from the `live` branch). The site is automatically built after each commit.
+
