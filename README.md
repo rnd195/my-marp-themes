@@ -52,7 +52,7 @@ https://rnd195.github.io/my-marp-themes/gradient.css
 
 - `gradient`, class `blue`
 
-![gradient-blue](samples/gradient-blue.png)
+![gradient-blue](./samples/gradient-blue.png)
 
 ## `graph_paper`
 
@@ -65,7 +65,7 @@ https://rnd195.github.io/my-marp-themes/gradient.css
 https://rnd195.github.io/my-marp-themes/graph_paper.css
 ```
 
-![graph_paper](samples/graph_paper.png)
+![graph_paper](./samples/graph_paper.png)
 
 
 
@@ -92,7 +92,7 @@ For additional settings (such as `size` or `paginate`), follow the [official doc
 
 # License
 
-The `beamer`-inspired `beam` theme is licensed under [GNU GPLv3](https://github.com/rnd195/my-marp-themes/blob/live/LICENSE_beam). Parts of the `beamer` class are [dual-license](https://github.com/josephwright/beamer/blob/main/LICENSE.md) with one option being the [GNU GPLv2](https://github.com/rnd195/my-marp-themes/blob/live/LICENSE_GPLv2). The rest of the repository is licensed under the [MIT License](https://github.com/rnd195/my-marp-themes/blob/main/LICENSE).
+The `beamer`-inspired `beam` theme is licensed under [GNU GPLv3](https://github.com/rnd195/my-marp-themes/blob/live/licenses/LICENSE_beam). Parts of the `beamer` class are [dual-license](https://github.com/josephwright/beamer/blob/main/LICENSE.md) with one option being the [GNU GPLv2](https://github.com/rnd195/my-marp-themes/blob/live/licenses/LICENSE_GPLv2). The rest of the repository is licensed under the [MIT License](https://github.com/rnd195/my-marp-themes/blob/live/licenses/LICENSE).
 
 
 # Attribution
