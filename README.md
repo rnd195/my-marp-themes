@@ -1,3 +1,5 @@
+[![Part of Awesome Marp](https://awesome.re/mentioned-badge-flat.svg)](https://github.com/marp-team/awesome-marp)
+
 # My custom Marp themes
 
 [Marp](https://marp.app/) is used to create presentations in Markdown. In this repository, you may find simple CSS themes that I have created.
