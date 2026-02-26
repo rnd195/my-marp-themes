@@ -1,9 +1,9 @@
 /* @theme graph_paper */
-/* Author: rnd195 https://github.com/rnd195/ */
-/* MIT license https://github.com/rnd195/my-marp-themes/blob/live/licenses/LICENSE */
+/* author: rnd195 github.com/rnd195/ */
+/* license: MIT github.com/rnd195/my-marp-themes/blob/live/licenses/LICENSE */
 
 @import "default";
-@import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans&display=swap");
 
 :root {
   font-family: "Work Sans Regular", Arial;
@@ -13,12 +13,18 @@
   --mark-background: #98d6ff;
 }
 
+
+/* --- BACKGROUND --- */
 section {
   background-color: #e3e3f1;
   background-size: 20px 20px;
-  background-image: linear-gradient(#3f32af18 1px, transparent 1px), linear-gradient(to right, #ccc89536 1px, #d8d8e62d 1px);
+  background-image:
+    linear-gradient(#3f32af18 1px, transparent 1px),
+    linear-gradient(to right, #ccc89536 1px, #d8d8e62d 1px);
 }
 
+
+/* --- TITLES --- */
 h1,
 h2,
 h3,
@@ -28,6 +34,8 @@ h6 {
   color: var(--text-color);
 }
 
+
+/* --- TEXT CHANGES --- */
 header {
   font-size: 0.7em;
   color: var(--text-color);
@@ -42,25 +50,11 @@ footer {
 
 code {
   background-color: #ffffff;
-  font-size: 0.9em
+  font-size: 0.9em;
 }
 
 pre {
   background-color: #ffffff;
-}
-
-/* https://github.com/yhatt/marp/issues/263 */
-section::after {
-  font-size: 0.75em;
-  content: attr(data-marpit-pagination) " / " attr(data-marpit-pagination-total);
-  color: var(--text-color);
-}
-
-/* the "center" keyword centers the image - may break, careful */
-/* https://github.com/marp-team/marpit/issues/141#issuecomment-473204518 */
-img[alt~="center"] {
-  display: block;
-  margin: 0 auto;
 }
 
 blockquote {
@@ -75,6 +69,17 @@ mark {
   padding: 0 2px 2px;
 }
 
+
+/* --- BOTTOM BAR --- */
+section::after {
+  font-size: 0.75em;
+  /* From github.com/yhatt/marp/issues/263 */
+  content: attr(data-marpit-pagination) " / " attr(data-marpit-pagination-total);
+  color: var(--text-color);
+}
+
+
+/* --- TABLES --- */
 table {
   display: block;
   margin: 0 auto;
@@ -85,11 +90,19 @@ th {
   color: white;
 }
 
-/* || SECTION CLASS: tinytext */
-/* new class that makes p, ul, and blockquote text smaller */
-/* might be useful for the References slide, use <!-- _class: tinytext --> */
-section.tinytext>p,
-section.tinytext>ul,
-section.tinytext>blockquote {
+
+/* --- CUSTOM CLASSES AND KEYWORDS --- */
+/* <!-- _class: tinytext --> */
+/* Makes p, ul, and blockquote text smaller to fit more text on a slide */
+section.tinytext > p,
+section.tinytext > ul,
+section.tinytext > blockquote {
   font-size: 0.65em;
+}
+
+/* img keyword "center" */
+/* Centers an image, from github.com/marp-team/marpit/issues/141#issuecomment-473204518 */
+img[alt~="center"] {
+  display: block;
+  margin: 0 auto;
 }
