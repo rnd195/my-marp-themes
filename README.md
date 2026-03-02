@@ -1,4 +1,4 @@
-[![Some themes mentioned in Awesome Marp](https://awesome.re/mentioned-badge-flat.svg)](https://github.com/marp-team/awesome-marp)
+[![Some themes mentioned in Awesome Marp](https://cdn.jsdelivr.net/gh/sindresorhus/awesome@8d97c26d1a89803c655b9fde77156f7823f995f7/media/mentioned-badge-flat.svg)](https://github.com/marp-team/awesome-marp)
 
 # My custom Marp themes
 
