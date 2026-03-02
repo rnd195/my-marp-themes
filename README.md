@@ -2,7 +2,7 @@
 
 # My custom Marp themes
 
-[Marp](https://marp.app/) is used to create presentations in Markdown. In this repository, you may find simple CSS themes that I have created.
+[Marp](https://marp.app/) is a framework used to create presentations in Markdown. In this repository, you will find simple CSS themes that I have created. You may find more themes from various authors on the [Community Themes gallery](https://rnd195.github.io/marp-community-themes/).
 
 
 
@@ -24,7 +24,7 @@
 https://rnd195.github.io/my-marp-themes/beam.css
 ```
 
-More screenshots on the [community themes website](https://rnd195.github.io/marp-community-themes/theme/beam.html)
+More screenshots on the [Community Themes website](https://rnd195.github.io/marp-community-themes/theme/beam.html)
 
 ![beam sample](./samples/beam.jpg)
 
@@ -46,7 +46,7 @@ More screenshots on the [community themes website](https://rnd195.github.io/marp
 https://rnd195.github.io/my-marp-themes/border.css
 ```
 
-More screenshots on the [community themes website](https://rnd195.github.io/marp-community-themes/theme/border.html)
+More screenshots on the [Community Themes website](https://rnd195.github.io/marp-community-themes/theme/border.html)
 
 ![border sample](./samples/border.png)
 
@@ -68,7 +68,7 @@ More screenshots on the [community themes website](https://rnd195.github.io/marp
 https://rnd195.github.io/my-marp-themes/gradient.css
 ```
 
-More screenshots on the [community themes website](https://rnd195.github.io/marp-community-themes/theme/gradient.html)
+More screenshots on the [Community Themes website](https://rnd195.github.io/marp-community-themes/theme/gradient.html)
 
 ![gradient1 sample](./samples/gradient.png)
 
@@ -94,7 +94,7 @@ More screenshots on the [community themes website](https://rnd195.github.io/marp
 https://rnd195.github.io/my-marp-themes/graph_paper.css
 ```
 
-More screenshots on the [community themes website](https://rnd195.github.io/marp-community-themes/theme/graph_paper.html)
+More screenshots on the [Community Themes website](https://rnd195.github.io/marp-community-themes/theme/graph_paper.html)
 
 ![graph_paper](./samples/graph_paper.png)
 
