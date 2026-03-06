@@ -1,4 +1,4 @@
-[![Some themes mentioned in Awesome Marp](https://cdn.jsdelivr.net/gh/sindresorhus/awesome@8d97c26d1a89803c655b9fde77156f7823f995f7/media/mentioned-badge-flat.svg)](https://github.com/marp-team/awesome-marp)
+[![Some themes mentioned in Awesome Marp](https://cdn.jsdelivr.net/gh/sindresorhus/awesome@8d97c26d1a89803c655b9fde77156f7823f995f7/media/mentioned-badge-flat.svg)](https://github.com/marp-team/awesome-marp) [![badge](https://cdn.jsdelivr.net/gh/rnd195/marp-community-themes@2468a89bcd33788b6bbc09be301bd7f8fe9217b1/badges/badge-square.svg)](https://rnd195.github.io/marp-community-themes/)
 
 # My custom Marp themes
 
