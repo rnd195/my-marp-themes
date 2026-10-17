@@ -1,0 +1,211 @@
+/* @theme castle */
+/* author: rnd195 github.com/rnd195 */
+/* license: MIT github.com/rnd195/my-marp-themes/blob/live/licenses/LICENSE */
+
+@import "default";
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap");
+
+:root {
+  font-family: "Inter", "Arial";
+  --main: #303030;
+  --secondary: #f6f8fa;
+  --tertiary: #ececec;
+  --text-light: #e7e7e7;
+  --text-dark: #303030;
+  --text-mid: #706f6f;
+  --highlight: #f8d862ab;
+  --dark: #202020;
+  --tiny-font: 0.65em;
+  --shadow: 4px 8px 8px hsl(0deg 0% 0% / 0.24);
+  --border: 1px solid black;
+}
+
+
+/* --- HEADINGS --- */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: var(--text-dark);
+}
+
+h1:nth-of-type(1) {
+  background: linear-gradient(90deg, var(--main) 0%, var(--dark) 100%);
+  color: var(--text-light);
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 1.5em;
+  padding: 0.55em 0em 0.3em 0em;
+  text-indent: 0.6em;
+  position: absolute;
+  font-size: 1.72em;
+  text-wrap: nowrap;
+}
+
+
+/* --- TEXT --- */
+code {
+  font-family: "JetBrains Mono";
+  background-color: var(--secondary);
+  border: var(--border);
+  padding: 0.1em 0.2em 0.1em 0.2em;
+  color: var(--text-dark);
+}
+
+pre {
+  font-family: "JetBrains Mono";
+  background-color: var(--secondary);
+  border: var(--border);
+  box-shadow: var(--shadow);
+}
+
+blockquote {
+  background: var(--secondary);
+  border-left: 10px solid var(--main);
+  margin: 0.5em;
+  padding: 0.5em;
+  box-shadow: var(--shadow);
+}
+
+mark {
+  background-color: var(--highlight);
+  border-radius: 5px;
+  padding: 0.1em 0.2em 0.1em 0.2em;
+}
+
+/* Smaller inline math */
+.katex {
+  font: normal 1.05em KaTeX_Main, serif;
+}
+
+
+/* --- TABLES --- */
+table {
+  display: block;
+  margin: 0 auto;
+  box-shadow: var(--shadow);
+}
+
+th {
+  background-color: var(--main);
+  color: var(--text-light);
+}
+
+table, th, td {
+  border: var(--border) !important;
+}
+
+
+/* --- IMAGES --- */
+img {
+  border: var(--border);
+  border-radius: 5px;
+}
+
+/* img keyword "center" */
+/* From github.com/marp-team/marpit/issues/141#issuecomment-473204518 */
+img[alt~="center"] {
+  display: block;
+  margin: 0 auto;
+}
+
+
+/* --- HEADER & FOOTER --- */
+header {
+  color: var(--text-mid);
+  text-align: left;
+  position: absolute;
+  top: 95.2%;
+  right: 0;
+  left: 1.5%;
+  font-size: var(--tiny-font);
+}
+
+footer {
+  color: var(--text-mid);
+  position: absolute;
+  text-align: center;
+  top: 95.2%;
+  right: 0;
+  left: 0;
+  font-size: var(--tiny-font);
+}
+
+/* From github.com/yhatt/marp/issues/263 */
+section::after {
+  color: var(--text-mid);
+  position: absolute;
+  text-align: right;
+  top: 95.2%;
+  right: 0;
+  left: -1.5%;
+  font-size: var(--tiny-font);
+  content: attr(data-marpit-pagination) " / " attr(data-marpit-pagination-total);
+  width: 100%;
+}
+
+/* Bottom bar */
+section {
+  box-shadow: inset 0 -1.42em 0 var(--tertiary);
+}
+
+
+/* --- CUSTOM CLASSES --- */
+
+/* <!-- _class: tinytext --> */
+/* Makes p, ul, and blockquote text smaller to fit more text on a slide */
+section.tinytext > p,
+section.tinytext > ul,
+section.tinytext > blockquote {
+  font-size: var(--tiny-font);
+}
+
+/* <!-- _class: title --> */
+section.title {
+  background: var(--main);
+  background: linear-gradient(90deg, var(--main) 0%, var(--dark) 100%);
+  box-shadow: var(--main);
+}
+
+section.title > h1 {
+  text-wrap: unset;
+  text-indent: 0;
+  font-size: 53pt;
+  width: 80%;
+  top: 0;
+  left: 1em;
+  height: auto;
+  border-bottom: 0.1em solid var(--text-light);
+  height: 4em;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+section.title > h1:nth-of-type(1) {
+  background: none;
+}
+
+section.title > p {
+  top: 10.5em;
+  font-size: 1.2em;
+  position: absolute;
+  color: var(--text-light)
+}
+
+section.title > header {
+  display: none;
+}
+
+section.title > footer {
+  display: none;
+}
+
+section.title::after {
+  display: none;
+}

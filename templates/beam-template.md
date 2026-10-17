@@ -7,6 +7,7 @@ header: This is a header
 footer: This is a footer
 title: Marp custom themes
 ---
+
 <!-- _class: title -->
 
 # A very long title of my presentation spanning two lines

@@ -8,14 +8,14 @@
 
 ## `beam`
 
-- Inspired by / based on [LaTeX's beamer class](https://github.com/josephwright/beamer)
+- Inspired by the [LaTeX beamer class](https://github.com/josephwright/beamer)
 
 > [!TIP]
 >
 > - Download and install the [Computer Modern Unicode font family](https://ctan.org/pkg/cm-unicode?lang=en) for best results
 >
+> - See the theme's [template](./templates/beam-template.md) to learn how to use the title page and other tips
 > - Follow the [tutorial](how-to/beam_custom.md) to change the primary colors
-
 
 
 **Download the CSS file:**
@@ -30,15 +30,53 @@ More screenshots on the [Community Themes website](https://rnd195.github.io/marp
 
 ---
 
-## `border`
+## `castle`
 
 - Based on the `default` Marp theme
+
+> [!TIP]
+>
+> - See the theme's [template](./templates/castle-template.md) to learn how to use the title page and other tips
+
+**Download the CSS file:**
+
+```
+https://rnd195.github.io/my-marp-themes/castle.css
+```
+
+More screenshots on the [Community Themes website](https://rnd195.github.io/marp-community-themes/theme/castle.html)
+
+![castle sample](./samples/castle.png)
 
 > [!NOTE]
 >
 > The theme imports a font from Google Fonts (see *Privacy notice* below)
 
+---
 
+## `graph_paper`
+
+- Based on the `default` Marp theme
+
+**Download the CSS file:**
+
+```
+https://rnd195.github.io/my-marp-themes/graph_paper.css
+```
+
+More screenshots on the [Community Themes website](https://rnd195.github.io/marp-community-themes/theme/graph_paper.html)
+
+![graph_paper](./samples/graph_paper.png)
+
+> [!NOTE]
+>
+> The theme imports a font from Google Fonts (see *Privacy notice* below)
+
+---
+
+## `border`
+
+- Based on the `default` Marp theme
 
 **Download the CSS file:**
 
@@ -50,17 +88,15 @@ More screenshots on the [Community Themes website](https://rnd195.github.io/marp
 
 ![border sample](./samples/border.png)
 
+> [!NOTE]
+>
+> The theme imports a font from Google Fonts (see *Privacy notice* below)
+
 ---
 
 ## `gradient`
 
 - Based on the `default` Marp theme
-
-> [!NOTE]
->
-> The theme imports a font from Google Fonts (see *Privacy notice* below)
-
-
 
 **Download the CSS file:**
 
@@ -76,27 +112,9 @@ More screenshots on the [Community Themes website](https://rnd195.github.io/marp
 
 ![gradient-blue](./samples/gradient-blue.png)
 
----
-
-## `graph_paper`
-
-- Based on the `default` Marp theme
-
 > [!NOTE]
 >
 > The theme imports a font from Google Fonts (see *Privacy notice* below)
-
-
-
-**Download the CSS file:**
-
-```
-https://rnd195.github.io/my-marp-themes/graph_paper.css
-```
-
-More screenshots on the [Community Themes website](https://rnd195.github.io/marp-community-themes/theme/graph_paper.html)
-
-![graph_paper](./samples/graph_paper.png)
 
 ---
 
@@ -108,8 +126,8 @@ For users of the VSCode Marp extension:
 2. Search for "Marp: Themes" or "markdown.marp.themes"
 3. Add either 
    - A local path to the CSS file
-   - Or a link to the CSS file
-     - Please, instead of linking to the raw file on GitHub, consider forking the repository and hosting the CSS files yourself (using, for example, GitHub Pages)
+   - Or a link to the CSS file - consider forking the repository
+
 4. Enable the theme in the front-matter of the Markdown document, i.e., write the following at the very beginning of the Markdown document:
 
 ```
@@ -147,13 +165,13 @@ The `beamer`-inspired `beam` theme is licensed under [GNU GPLv3](https://github.
 
 # Attribution
 
-The `beam`, `border`, `graph_paper`, and `gradient` themes are based on the `default` Marp themes made by [yhatt](https://github.com/marp-team/marp-core/tree/main/themes). The `border` and `gradient` themes import the [Inter](https://fonts.google.com/specimen/Inter) font by [Rasmus Andersson](https://rsms.me/). The `graph_paper` theme imports the [Work Sans](https://github.com/weiweihuanghuang/Work-Sans) font by [Wei Huang](https://github.com/weiweihuanghuang).
+The `beam`, `border`, `graph_paper`, `castle`, and `gradient` themes are based on the `default` Marp themes made by [yhatt](https://github.com/marp-team/marp-core/tree/main/themes). The `border`, `gradient`, and `castle` themes import the [Inter](https://fonts.google.com/specimen/Inter) font by [Rasmus Andersson](https://rsms.me/). The `graph_paper` theme imports the [Work Sans](https://github.com/weiweihuanghuang/Work-Sans) font by [Wei Huang](https://github.com/weiweihuanghuang). The `castle` theme imports the [JetBrains Mono](https://www.jetbrains.com/lp/mono/) font by JetBrains.
 
 
 
 # Privacy notice
 
-Please, be aware that by using some of the CSS themes (namely `border`, `gradient`, and `graph_paper`) you import fonts from the Google Fonts service. Please, refer to their [Privacy FAQ](https://developers.google.com/fonts/faq/privacy) for more information about using their service.
+Please, be aware that by using some of the CSS themes (namely `border`, `gradient`, `graph_paper`, and `castle`) you import fonts from the Google Fonts service. Please, refer to their [Privacy FAQ](https://developers.google.com/fonts/faq/privacy) for more information about using their service.
 
-The CSS files are also hosted on the GitHub Pages site of this repository (deployed from the `live` branch). The site is automatically built after each commit.
+The CSS files are hosted on the GitHub Pages site of this repository (deployed from the `live` branch). The site is automatically built after each commit.
 
