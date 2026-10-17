@@ -9,7 +9,7 @@ title: Marp custom themes
 ---
 <!-- _class: title -->
 
-# A very long title of my beamer-esque presentation
+# A very long title of my presentation spanning two lines
 <br/>
 
 Author's name

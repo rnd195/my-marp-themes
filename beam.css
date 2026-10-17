@@ -119,6 +119,10 @@ section.title > h1 {
   height: auto;
 }
 
+section.title > h1:nth-of-type(1) {
+  text-indent: 0em;
+}
+
 section.title > p {
   position: relative;
   text-align: center;
