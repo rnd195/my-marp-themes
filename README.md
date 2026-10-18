@@ -44,7 +44,7 @@ More screenshots on the [Community Themes website](https://rnd195.github.io/marp
 https://rnd195.github.io/my-marp-themes/castle.css
 ```
 
-More screenshots on the Community Themes website (Coming Soon!)
+More screenshots on the [Community Themes website](https://rnd195.github.io/marp-community-themes/theme/castle.html)
 
 ![castle sample](./samples/castle.png)
 
